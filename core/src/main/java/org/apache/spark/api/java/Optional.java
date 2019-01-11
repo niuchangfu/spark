@@ -65,7 +65,7 @@ public final class Optional<T> implements Serializable {
   private static final Optional<?> EMPTY = new Optional<>();
 
   private final T value;
-
+//测试
   private Optional() {
     this.value = null;
   }

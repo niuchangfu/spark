@@ -23,6 +23,7 @@ import org.apache.spark.storage.StorageLevel;
  * Expose some commonly useful storage level constants.
  */
 public class StorageLevels {
+  //存储策略
   public static final StorageLevel NONE = create(false, false, false, false, 1);
   public static final StorageLevel DISK_ONLY = create(true, false, false, false, 1);
   public static final StorageLevel DISK_ONLY_2 = create(true, false, false, false, 2);
